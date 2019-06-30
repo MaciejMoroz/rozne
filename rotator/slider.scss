@@ -1,0 +1,51 @@
+//slider
+.slider {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+
+// slider contener
+.slider-slides-cnt {
+  height: $base-unit * 25;
+  width: 100%;
+  position: relative;
+}
+
+// single slide
+.slider-slide {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: $base-unit * 12;
+
+  opacity: 0;
+  z-index: 0;
+}
+// active slide
+.slider-slide-active {
+  z-index: 1;
+}
+
+.slider .element-text {
+  color: $color-1;
+  position: relative;
+  left: -3 * $base-unit;
+  opacity: 0;
+  text-align: center;
+  max-width: 100%;
+  p {
+    text-align: left;
+    font-size: $font-size-h4;
+  }
+  .slide-footer {
+    font-size: $font-size-h4;
+    text-align: left;
+    a {
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}

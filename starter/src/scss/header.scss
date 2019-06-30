@@ -36,7 +36,7 @@
   .nav-btn {
     display: none;
     transition: all 0.5s;
-    color: $color-2;
+    color: $white;
     text-transform: uppercase;
     cursor: pointer;
     padding: $space * 0.5 $space;
@@ -45,7 +45,7 @@
       display: block;
     }
     &:hover {
-      color: $color-1;
+      color: $color-2;
       background-color: rgba(242, 242, 242, 0.5);
     }
   }

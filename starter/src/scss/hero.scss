@@ -1,0 +1,22 @@
+.hero {
+  background-image: url("https://via.placeholder.com/800.png/09f/fff?text=.");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: $white;
+  overflow: hidden;
+  position: relative;
+  top: -$space * 2;
+  left: 0;
+  height: 100vh;
+  width: auto;
+  margin: 0;
+  color: $white;
+}
+
+.hero-cont {
+  position: relative;
+  top: $space * 8;
+  color: black;
+  text-align: center;
+}
